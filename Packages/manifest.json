@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "com.unity.package-manager-ui": "2.0.3",
+    "com.unity.postprocessing": "2.1.2",
+    "jp.keijiro.kino.post-processing.utilities": "https://github.com/keijiro/PostProcessingUtilities.git#upm",
+    "jp.keijiro.klak.hap": "https://github.com/keijiro/KlakHap.git#upm",
+    "jp.keijiro.klak.timeline.procedural-motion": "https://github.com/keijiro/ProceduralMotionTrack.git#upm",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.video": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "jp.keijiro.klak.hap": {
+      "hash": "4a58abc8995a1c6fc5300e7552df68543da8977b",
+      "revision": "upm"
+    },
+    "jp.keijiro.kino.post-processing.utilities": {
+      "hash": "2d03097caa36206eb6de63853632e62cf51d2abf",
+      "revision": "upm"
+    },
+    "jp.keijiro.klak.timeline.procedural-motion": {
+      "hash": "bcdcf104956a21500e2894bb762f19b6307cbb8e",
+      "revision": "upm"
+    }
+  }
+}
