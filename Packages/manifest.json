@@ -19,16 +19,16 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "lock": {
-    "jp.keijiro.klak.hap": {
-      "hash": "4a58abc8995a1c6fc5300e7552df68543da8977b",
-      "revision": "upm"
-    },
     "jp.keijiro.kino.post-processing.utilities": {
       "hash": "2d03097caa36206eb6de63853632e62cf51d2abf",
       "revision": "upm"
     },
     "jp.keijiro.klak.timeline.procedural-motion": {
       "hash": "bcdcf104956a21500e2894bb762f19b6307cbb8e",
+      "revision": "upm"
+    },
+    "jp.keijiro.klak.hap": {
+      "hash": "8d8aba0d1da160af74feff69d4943f876082bcea",
       "revision": "upm"
     }
   }
