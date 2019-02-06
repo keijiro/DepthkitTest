@@ -28,12 +28,12 @@
       "hash": "bcdcf104956a21500e2894bb762f19b6307cbb8e",
       "revision": "upm"
     },
-    "jp.keijiro.klak.hap": {
-      "hash": "8d8aba0d1da160af74feff69d4943f876082bcea",
-      "revision": "upm"
-    },
     "jp.keijiro.kvant.warp": {
       "hash": "d3ae54453c9432f5bb6e9dd0e9dd230758c423a1",
+      "revision": "upm"
+    },
+    "jp.keijiro.klak.hap": {
+      "hash": "6baeeb6caa5c8045b8b3d1654cea98de301e427a",
       "revision": "upm"
     }
   }
