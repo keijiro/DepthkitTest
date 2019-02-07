@@ -16,8 +16,5 @@ Desktop.ini
 /Library
 /Temp
 
-# Depthkit
-/Assets/Ditho/Script/Depthkit_Metadata.cs
-
 # Large files
 *.mov
