@@ -46,8 +46,10 @@ namespace Ditho
         {
             serializedObject.Update();
 
+            EditorGUI.BeginChangeCheck();
             EditorGUILayout.PropertyField(_source);
             EditorGUILayout.PropertyField(_metadata);
+            var needsReconstruct = EditorGUI.EndChangeCheck();
 
             EditorGUILayout.Space();
 
@@ -69,6 +71,9 @@ namespace Ditho
             EditorGUILayout.PropertyField(_sparkleDensity);
 
             serializedObject.ApplyModifiedProperties();
+
+            if (needsReconstruct)
+                foreach (Surface s in targets) s.ReconstructMesh();
         }
     }
 }
