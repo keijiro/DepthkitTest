@@ -45,7 +45,10 @@ namespace Ditho
 
             EditorGUILayout.Space();
 
+            EditorGUI.BeginChangeCheck();
             EditorGUILayout.PropertyField(_pointCount);
+            var needsReconstruct = EditorGUI.EndChangeCheck();
+
             EditorGUILayout.PropertyField(_curveLength);
             EditorGUILayout.PropertyField(_curveAnimation);
 
@@ -60,6 +63,9 @@ namespace Ditho
             EditorGUILayout.PropertyField(_attenuation);
 
             serializedObject.ApplyModifiedProperties();
+
+            if (needsReconstruct)
+                foreach (Fiber f in targets) f.ReconstructMesh();
         }
     }
 }
